@@ -33,8 +33,8 @@ export class ListaProductosComponent {
         140
       ),
       new Producto(
-        'https://jhayber.com/documents/images/products/63638-850-1.jpg',
         'J-Hayber Olimpo',
+        'https://jhayber.com/documents/images/products/63638-850-1.jpg',
         60
       ),
       new Producto(
