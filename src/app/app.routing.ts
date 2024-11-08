@@ -3,10 +3,12 @@ import { ModuleWithProviders } from '@angular/core';
 
 import { ListaProductosComponent } from './components/lista-productos/lista-productos.component';
 import { HomeComponent } from './components/home/home.component';
+import { PadreCocheComponent } from './components/padre-coche/padre-coche.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'lista', component: ListaProductosComponent },
+  { path: 'padrecoche', component: PadreCocheComponent },
 ];
 
 export const appRoutingProvider: any[] = [];

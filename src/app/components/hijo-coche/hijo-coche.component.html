@@ -1,0 +1,21 @@
+<div>
+  <h1>Hijo Coche Component</h1>
+  <h2 style="color: blue">{{ car.marca }} {{ car.modelo }}</h2>
+  <h2 [ngClass]="{ verde: car.estado == true, rojo: car.estado == false }">
+    {{ mensaje }}
+  </h2>
+  <h2>Velocidad: {{ car.velocidad }} km/h</h2>
+
+  <button class="pushable" (click)="encenderCoche()">
+    <span class="shadow"></span>
+    <span class="edge"></span>
+    <span class="front"> Start/Stop coche </span>
+  </button>
+  <br />
+  <br />
+  <button class="pushable" (click)="acelerarCoche()">
+    <span class="shadow"></span>
+    <span class="edge"></span>
+    <span class="front"> Acelerar!! </span>
+  </button>
+</div>
